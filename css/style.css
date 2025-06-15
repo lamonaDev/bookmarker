@@ -1,0 +1,58 @@
+body {
+    background-color: #F5E6CC;
+}
+
+.title {
+    font-family: 'Pacifico', cursive;
+    font-size: 2.5rem;
+    position: relative;
+}
+
+.title::after {
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 60px;
+    height: 4px;
+    background-color: #FFC107;
+}
+
+.dashed {
+    border-top: 1px dashed #ccc;
+}
+
+.form-section,
+.table-section {
+    background-color: #FFFFFF;
+    border: 1px solid #ccc;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.btn-submit {
+    background-color: #FF5733;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-weight: bold;
+    width: 100%;
+}
+
+@media (min-width: 768px) {
+    .btn-submit {
+        width: 300px;
+    }
+}
+
+.table th,
+.table td {
+    text-align: center;
+}
+button {
+    background: transparent;
+    border: none;
+    color: #F5E6CC;
+}
